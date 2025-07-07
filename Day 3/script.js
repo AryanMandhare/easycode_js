@@ -136,8 +136,77 @@ let d = 30;
   let cvb='10';
   console.log(bnv!=cvb);
 
+  // > greater than
+
+  let bn= 4;
+  let fn= 7;
+  console.log(bn>fn);
+
+  console.log(8>7);
+
+  // < less than 
+
+  let fm=9;
+  let am=10;
+  console.log(fm<am);
+
+  console.log(7<8);
 
 
-  let o=30;
-  let i=30;
-  console.log(o*i);
+  // >= greater than equal to
+
+  let mb= 10;
+  let vn= 10;
+  console.log(mb>vn);
+  console.log(mb>=vn);
+
+// <= less than equal to
+
+let ln=4;
+let ml=4;
+console.log(ln<ml);
+console.log(ln<=ml);
+
+// 4] Logical Operator
+
+// && and operator
+
+let res= true && true; //in this case both condition are required true to get output 
+console.log(res);
+
+let ans= true && false;
+console.log(ans);
+
+let xc=10;
+console.log(xc>5 && xc<15);
+
+// || or operator
+
+let result= false||true;  //If at least one condition is true then the entire statement is true
+console.log(result);
+
+let answer= false||false; //If both condition is false then the entire statement is false
+console.log(answer);
+
+let zc=10;
+console.log(zc>10 || zc<15); 
+
+// ! Not operator
+
+let op=5;
+console.log(!op);
+
+console.log(!true);
+console.log(!false);
+
+
+
+
+
+
+
+
+
+
+
+
