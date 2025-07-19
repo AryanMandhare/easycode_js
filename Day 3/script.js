@@ -199,8 +199,17 @@ console.log(!op);
 console.log(!true);
 console.log(!false);
 
+// 6] ternary operator
 
+let age=17;
+(age>=18)? console.log("you can vote"): console.log("you cannot vote");
 
+let num=9;
+let result1= (num%2==0)? "even":"odd";
+console.log(result1);
+
+let marks=75;
+(marks>=35)? console.log("you are pass"): console.log("you are fail");
 
 
 
