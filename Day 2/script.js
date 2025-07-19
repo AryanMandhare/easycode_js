@@ -8,7 +8,7 @@ console.log(name);
 var address="wai";
 console.log(address);
 
-const age= 20;
+const age= 22;
 console.log(age);
 
 
@@ -19,10 +19,12 @@ console.log(age);
 // Number
 
 let height = 5.5;
+let weight=50;
 const PI = 3.14;
  let RollNo = 10;
 
 console.log(typeof height);
+console.log(typeof weight);
 console.log(typeof PI);
 console.log(typeof RollNo);
  
@@ -50,9 +52,11 @@ console.log(typeof IS_Valid_Email);
 
 let Bestcolleage
 let Address
+let city;
 
 console.log(typeof Bestcolleage);
 console.log(typeof Address);
+console.log(typeof city);
 
 // Bestcolleage="MIT.Pune"
 // console.log(typeof Bestcolleage);
