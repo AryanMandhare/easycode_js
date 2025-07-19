@@ -211,10 +211,10 @@ console.log(result1);
 let marks=75;
 (marks>=35)? console.log("you are pass"): console.log("you are fail");
 
+let positiveNumber = 5;
+let result2 = (positiveNumber > 0) ? "Positive" : "Negative";
 
-
-
-
+console.log(result2);
 
 
 
