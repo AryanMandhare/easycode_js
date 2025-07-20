@@ -48,7 +48,7 @@ switch (carname) {
 
 //nested if-else
 
-let Uinput = prompt("Enter a number");
+let Uinput = prompt("Enter a mark:");
 let num = parseInt(Uinput);
 
 if (num >= 35) {
@@ -66,7 +66,7 @@ if (num >= 35) {
 }
 
 
-let age=prompt("enter your age");
+let age=prompt("enter your age:");
 let userage=parseInt(age);
 let hasid=true;
 
@@ -86,7 +86,7 @@ if(userage>=18){
 
 //else if Statement
 
-let userinput=prompt("enter a number");
+let userinput=prompt("enter a mark:");
 let number=parseInt(userinput);
    if(number>=90){
         console.log("grade A");
