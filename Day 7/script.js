@@ -9,6 +9,13 @@
        count++;
  }
 
+let value= parseInt(prompt("enter a number"));
+
+let mul_value=1;
+while(mul_value <=10){
+  console.log(value*mul_value);
+  mul_value++;
+}
 
  let number =prompt("Enter a number: ");
  number = parseInt(number);
