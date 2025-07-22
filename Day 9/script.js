@@ -1,4 +1,5 @@
 
+// document in javascript
 console.log(document.title="document in javascript");
 
 let mul_num= parseInt(prompt("Enter a number to multiply:"));
@@ -14,6 +15,7 @@ let websiteURL="https://easycode.support";
 console.log("hello "+ userName+" ,welcome to our website "+websiteURL);
 
 console.log(`hello ${userName} ,welcome to our website ${websiteURL}`)
+
 
 for(let i=0; i>=-20; i--){
     console.log(`i is: ${i}`);
