@@ -56,7 +56,7 @@ let course=['bca','mca','bba','mba','btech'];
 let res=course.indexOf('bba');
 console.log(res);
 
-//include
+// includes method
 
 let company=['wipro','tcs','hcl','tech mahindra'];
 let res1=company.includes('tcs');
