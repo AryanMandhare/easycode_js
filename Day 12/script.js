@@ -1,3 +1,4 @@
+// create an object and access their key & value
 let myinfo = {
     name: "aryan",
     age: 20,
@@ -51,3 +52,79 @@ console.log(popularfood.Delhi[1]);
 console.log(popularfood.Mumbai.indexOf("bhel puri"));
 console.log(popularfood.Chennai[2]);
 console.log(popularfood.Wai[0]);
+
+// instagram profile example
+
+let instagram = {
+    name: "aryan",
+    username: "aryan_123",
+
+    following: [
+
+        {
+            name: "raj",
+            username: "raj123"
+        },
+        {
+            name: "sai",
+            username: "sai123"
+        },
+        {
+            name: "yash",
+            username: "yash123"
+        },
+        {
+            name: "omkar",
+            username: "omkar123"
+        }
+    ],
+
+    followers: [
+        {
+            name: "raj",
+            username: "raj,123"
+        },
+        {
+            name: "sai",
+            username: "sai12"
+        }
+    ],
+
+    posts: [
+        {
+            image: "abc.jpg",
+            likes: 10,
+            comments: 2
+        },
+        {
+            image: "xyz.jpg",
+            likes: 12,
+            comments: 3
+        }
+    ]
+
+}
+
+console.log(instagram);
+console.log(instagram.name);
+console.log(instagram.username);
+console.log(instagram.following[1].name);
+console.log(instagram.followers[1].name);
+console.log(instagram.posts[1].image);
+console.log(instagram.posts[1].likes);
+console.log(instagram.posts[1].comments);
+
+for (let i = 0; i < instagram.following.length; i++) {
+    console.log(instagram.following[i].name);
+}
+
+for (let i = 0; i < instagram.posts.length; i++) {
+    console.log(instagram.posts[i].likes);
+}
+
+let res = instagram.following.shift();
+console.log(res);
+
+instagram.followers.push({ name: "rohan", username: "rohan123" }
+);
+console.log(instagram);
