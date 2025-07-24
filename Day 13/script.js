@@ -78,16 +78,16 @@ let student = {
     city: "wai"
 }
 
-for (let info in student){
+for (let info in student) {
     console.log(`${info} : ${student[info]}`);
 }
 
-let bike ={
+let bike = {
     company: "honda",
     model: "shine",
     price: "80000"
 }
 
-for(let i in bike){
+for (let i in bike) {
     console.log(`${i} : ${bike[i]}`);
 }
