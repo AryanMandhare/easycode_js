@@ -125,6 +125,5 @@ for (let i = 0; i < instagram.posts.length; i++) {
 let res = instagram.following.shift();
 console.log(res);
 
-instagram.followers.push({ name: "rohan", username: "rohan123" }
-);
+instagram.followers.push({ name: "rohan", username: "rohan123" });
 console.log(instagram);
