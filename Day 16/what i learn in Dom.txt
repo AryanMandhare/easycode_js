@@ -2,9 +2,18 @@
 using document 
 
 1. Accessing element:
+    => document.getElementsByTagName("tag name");
+    => document.getElementsByClassName("class name");
+    => document.getElementById("id name");
+    => document.querySelector(".class name");
+    => document.querySelector("#id name")
 
 2.modify the element:
+   => .innerText
+   => .innerHTML
 
 3.control styling:
-
+   => element.style.fontSize = "40px";
+   => document.body.style.color = "black";
+   
 4.handle events:
