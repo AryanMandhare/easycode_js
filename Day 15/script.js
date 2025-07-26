@@ -10,11 +10,11 @@ let res1 = person("aryan");
 console.log(res1);
 
 
-let addtion = function (a, b) {
+let add1 = function (a, b) {
     return a + b;
 }
 
-let res = addtion(10, 20);
+let res = add1(10, 20);
 console.log(res);
 
 
@@ -78,10 +78,10 @@ console.log(result);
 // 3] Higher order function    
 
 // A higher order function is a function that receives 
-// another function as a parameter
-
+// another function as a parameter and it return another function.
 
 // i]
+
 let callback = () => {
     console.log("I am callback function");
 }
@@ -117,3 +117,48 @@ let get = (post) => {
 }
 
 get(post);
+
+// iv]
+
+let addition = (a, b) => {
+    console.log(a + b);
+}
+
+let subsrction = (a, b) => {
+    console.log(a - b);
+}
+
+let mulatipication = (a, b) => {
+    console.log(a * b);
+}
+
+let division = (a, b) => {
+    console.log(a / b);
+}
+
+
+
+let calculator = (addition, subsrction, mulatipication, division) => {
+    addition(10, 20);
+    subsrction(10, 20);
+    mulatipication(10, 20);
+    division(10, 20);
+
+}
+
+calculator(addition, subsrction, mulatipication, division);
+
+// 4] callback function
+
+// A callback is a function passed as a parameter to another function
+
+let parent = (func) => {
+    console.log("I am parent");
+    func();
+}
+
+let child = () => {
+    console.log("I am child");
+}
+
+parent(child);
