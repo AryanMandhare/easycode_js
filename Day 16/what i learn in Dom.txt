@@ -1,0 +1,10 @@
+
+using document 
+
+1. Accessing element:
+
+2.modify the element:
+
+3.control styling:
+
+4.handle events:
