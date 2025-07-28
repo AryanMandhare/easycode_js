@@ -10,11 +10,11 @@ result.addEventListener("mouseleave", () => {
     result.style.backgroundColor = "white";
 })
 
-// result.addEventListener("mousemove", () => {
-//     result.style.backgroundColor = "green";
+result.addEventListener("mousemove", () => {
+    result.style.backgroundColor = "green";
 
 
-// })
+})
 
 //mouse follower event
 
