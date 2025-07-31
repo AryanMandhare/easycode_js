@@ -26,5 +26,5 @@ let Currentdate = `${date.getDate()}, ${month[date.getMonth()]}, ${date.getFullY
 console.log(Currentdate);
 
 // to get current time
-let  currentTime = `${date.getHours()}, ${date.getMinutes()}, ${date.getSeconds()}`;
+let currentTime = `${date.getHours()}, ${date.getMinutes()}, ${date.getSeconds()}`;
 console.log(currentTime);
