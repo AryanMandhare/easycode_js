@@ -58,5 +58,4 @@ localStorage.removeItem("is_login")
 
 // iv] .clear() - clear all data from local storage
 
-let res5 = localStorage.clear()
-console.log(res5)
+localStorage.clear()
