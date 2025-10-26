@@ -1,10 +1,10 @@
 
-// async function loaddata(){
-//     let response = await fetch("https://api-practice-snowy.vercel.app/songs")
-//     let data = await response.json()
-//     console.log(data)
-// }
-// loaddata()
+async function loaddata(){
+    let response = await fetch("https://api-practice-snowy.vercel.app/songs")
+    let data = await response.json()
+    console.log(data)
+}
+loaddata()
 
 // let loaddata = async()=>{
 //     let response = await fetch("https://api.thecatapi.com/v1/images/0XYvRd7oD")
